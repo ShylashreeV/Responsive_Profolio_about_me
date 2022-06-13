@@ -57,7 +57,7 @@ section{
 }
 .heading{
     text-align: center;
-    margin: 0 6rem;
+    margin: 0 3rem;
     font-size: 4rem;
     padding: 1rem;
     border-bottom: .1rem solid #fff4;
@@ -176,11 +176,10 @@ header .navbar ul li a:hover{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 1rem 0;
     padding-left: 3rem;
 }
 .education .box-container .box{
-    width: 27rem;
+    width: 28rem;
     margin: 4rem 1rem;
     padding-left: 4rem;
     border-left: .2rem solid #fff;
@@ -216,10 +215,32 @@ header .navbar ul li a:hover{
     color: #fff;
     background: var(--yellow);
 }
+
+.skills .box-container .box{
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.2);
+}
+
+.skills .box-container .box a{
+    
+    text-align: center;
+    font-size: 2rem;
+    color: var(--yellow);
+    border: .5px solid var(--yellow);
+    border-radius: 10px;
+    width:30%;
+    color: #fff;
+}
+.skills .box-container .box a:hover{
+    background: green;
+}
 .projects .box-container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-flow: wrap;
     padding: 2rem 0;
 }
