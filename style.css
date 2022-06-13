@@ -117,7 +117,7 @@ header .navbar ul li a:hover{
 }
 #menu{
     position: fixed;
-    top: 2rem;
+    top: 1rem;
     right: 2rem;
     background: #333;
     color: #fff;
@@ -131,7 +131,7 @@ header .navbar ul li a:hover{
     display: flex;
     justify-content: center;
     flex-flow: column;
-    padding: 0 15rem;
+    padding: 0 10rem;
 }
 .home h3{
     font-size: 2.5rem;
@@ -171,6 +171,148 @@ header .navbar ul li a:hover{
     color: #eee;
     padding: 0 .5rem;
 }
+.education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+.education .box-container .box{
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+.education .box-container .box span{
+    font-size: 1.3rem;
+    background: #222;
+    color: #fff;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
+}
+.education .box-container .box h3{
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+.education .box-container .box p{
+    font-size: 1.4rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+.education .box-container .box i{
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--yellow);
+}
+.projects .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    padding: 2rem 0;
+}
+.projects .box-container .box img{
+    height: 20rem;
+    width: 26rem;
+    border-radius: 2rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.projects .box-container .box a{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--yellow);
+    border: .5px solid var(--yellow);
+    border-radius: 10px;
+    width:90%;
+    margin-left: 1rem;
+}
+.projects .box-container .box a:hover{
+    background: green;
+}
+
+.projects .box-container .box:hover img{
+    transform: scale(1.2);
+}
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact .row .content{
+    flex:1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+}
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 4rem;
+}
+.contact .row form .box{
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: #3333;
+    color: #fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+}
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+}
+.contact .row form .message{
+    height: 15rem;
+    resize: none;
+}
+.contact .row .content .title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.contact .row .content .info h3 i{
+    padding-right: 1rem;
+    color: var(--yellow);
+}
+.top{
+    position: fixed;
+    bottom: 5rem;
+    right: 3rem;
+    z-index: 100;
+    display: none;
+}
+.top i{
+    font-size: 3rem;
+    color: #fff;
+}
+
+
 
 
 
@@ -214,5 +356,17 @@ header .navbar ul li a:hover{
     }
     .heading{
         margin: 0 3rem;
+    }
+    .education .box-container .box{
+        width: 100%;
+    }
+    .projects .box-container .box{
+        width: 100%;
+    }
+    .projects .box-container .box a{
+        width: 80%;
+    }
+    .contact .row form{
+        margin: 3rem 0;
     }
 }
