@@ -334,6 +334,48 @@ header .navbar ul li a:hover{
 }
 
 
+.social-media a{
+    width:50px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin:20px 10px;
+    border-radius: 50%;
+}
+.social-media{
+    display: flex;
+    padding-left: 30rem;
+    padding-bottom: 1rem;
+}
+
+ .social-media i{
+     color: #000000;
+     font-size: 3rem;
+ }
+ .social-media a:hover{
+     background-color: var(--yellow);
+     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+     transition: all ease 0.5s;
+ }
+ .social-media a:hover i{
+     color: #FFFFFF;
+     transition: all ease 0.5s;
+ }
+
+ .copyright{
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 23rem;
+    padding-bottom: 3rem;
+}
+.copyright span{
+    color: var(--yellow);
+}
+
+
+
 
 
 
@@ -389,5 +431,16 @@ header .navbar ul li a:hover{
     }
     .contact .row form{
         margin: 3rem 0;
+    }
+    .social-media{
+        display: flex;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+    }
+    .copyright{
+        color: #fff;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        padding-bottom: 3rem;
     }
 }
