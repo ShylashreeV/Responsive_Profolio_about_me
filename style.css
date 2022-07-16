@@ -36,7 +36,7 @@ body{
     padding-left: 35rem;
 }
 section{
-    min-height: 100vh;
+    min-height: 70vh;
     padding: 1rem;
 }
 .btn{
@@ -375,15 +375,6 @@ header .navbar ul li a:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
 @media (max-width:1200px){
     html{
         font-size: 55%;
@@ -425,6 +416,7 @@ header .navbar ul li a:hover{
     }
     .projects .box-container .box{
         width: 100%;
+        margin-left: 5rem;
     }
     .projects .box-container .box a{
         width: 80%;
