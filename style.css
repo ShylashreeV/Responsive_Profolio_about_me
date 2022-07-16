@@ -35,6 +35,10 @@ body{
     overflow-x: hidden;
     padding-left: 35rem;
 }
+section{
+    min-height: 80vh;
+    padding: 1rem;
+}
 .btn{
     padding: .7rem 3rem;
     background: #333;
